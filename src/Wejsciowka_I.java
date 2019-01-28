@@ -13,7 +13,7 @@ public class Wejsciowka_I
         }
     }
     public static void main(String[] args) {
-        ArrayList<Plik>a=new ArrayList();
+        ArrayList<Plik>a=new ArrayList<>();
         a.add(new Plik("Jak5",18,true));
         a.add(new Plik("Jak3",24,true));
         a.add(new Plik("Jak4",2124,true));
@@ -28,7 +28,5 @@ public class Wejsciowka_I
         Arrays.sort(tmp);
         System.out.println(ArrayUtil.isSorted(tmp));
         print(Arrays.asList(tmp));
-
-
     }
 }
